@@ -31,7 +31,7 @@ author-note:
 abstract: 'Grosz (2026) argues that the Big Five should be understood as composite-formative constructs rather than as latent common causes of their indicators. We agree that broad personality domains are unlikely to be single biological, environmental, or psychological entities that directly generate all item responses. Yet this critique of simple reflective models does not establish that the Big Five are merely composites. Statistical unidimensionality does not require mechanistic singularity. Broad dimensions emerge from numerous partly shared biological, environmental, cognitive, motivational, social, and behavioral influences. Indeed, multiplicity of causes is the reason why continuous, approximately Gaussian traits are plausible. Hierarchical latent models can represent this distributed structure while retaining substantive variance at the facet, nuance, item, method, and residual levels. Local dependence and semantic overlap challenge overly simplistic measurement models, not latent-variable thinking as such. Most importantly, the covariance among personality indicators remains to be explained. Composite scores preserve useful summaries and may predict outcomes well, but they do not explain why the summarized indicators hang together. Treating compositing as a solution therefore risks an operationalist retreat from understanding personality structure. We propose a multilevel causal-measurement framework in which broad domains capture approximate higher-order regularities, narrower tendencies retain their specificity, and the processes generating their covariance become explicit objects of inquiry.'
 keywords: [latent variables; composite scores; network analysis; Big Five; personality]
 bibliography: references.bib
-format: #quarto render paper/nca_paper.qmd --to all
+format: #quarto render commentary/commentary.qmd --to all
   apaquarto-html: default
   apaquarto-pdf:
     documentmode: man
@@ -154,7 +154,7 @@ The more defensible conclusion is that causal complexity challenges simple refle
 
 # Declarations
 
-- **AI use**: The authors used ChatGPT and other generative AI tools to identify potential weaknesses in the manuscript and to assist with restructuring, English-language editing, and improvements to clarity and tone. All AI-generated suggestions were critically evaluated and revised by the authors, who take full responsibility for the final content of the manuscript.
+- **AI use**: The authors used ChatGPT to identify potential weaknesses in the manuscript and to assist with English-language editing, and improvements to clarity and tone. All AI-generated suggestions were critically evaluated and revised by the authors, who take full responsibility for the final content of the manuscript.
 
 - **Funding**: The authors received no funding for this study.
 
@@ -168,5 +168,5 @@ The more defensible conclusion is that causal complexity challenges simple refle
 
 - **Availability of data, code, and materials**: Not applicable.
 
-
+# References
 
