@@ -174,7 +174,13 @@
 
 **Note ET:**
 
-**Note TF:** Qua abbiamo una serie di letture selettive della letteratura. I due studi genetici che conosciamo dicono solo che non tutto l'effetto può essere mediato dal fattore comune . Briley & Tucker-Drob in realtà concludono questa cosa SOLO per alcuni fattori ma non per altri. Gli altri invece dicono esplicitamente che una modello con residui sulle facet potrebbe fittare bene i dati, ma evitano accuratamente di fittare il modello che proponiamo. Idem per l'intervento di Olaru. Gli autori trovano che alcune facet cambiano e altre no, ma questa è solo un'evidenza che si possono modificare varianze specifiche senza modificare le parti comuni. Da notare inoltre che usano modelli gerarchici latenti per poter studiare dove sta l'effetto
+**Note TF:**
+
+-   Qua abbiamo una serie di letture selettive della letteratura. I due studi genetici che conosciamo dicono solo che non tutto l'effetto può essere mediato dal fattore comune . Briley & Tucker-Drob in realtà concludono questa cosa SOLO per alcuni fattori ma non per altri. Gli altri invece dicono esplicitamente che una modello con residui sulle facet potrebbe fittare bene i dati, ma evitano accuratamente di fittare il modello che proponiamo. Idem per l'intervento di Olaru. Gli autori trovano che alcune facet cambiano e altre no, ma questa è solo un'evidenza che si possono modificare varianze specifiche senza modificare le parti comuni. Da notare inoltre che usano modelli gerarchici latenti per poter studiare dove sta l'effetto.
+
+<!-- -->
+
+-   Inoltre i nostri statement non violano la proporzionalità perchè semplicemente indicano come varianze specifiche a livello di facet possano avere effetti anche opposti, mentre l'effetto comune, se c'è, sarà sempre proporzionale. Però forse ha ragione e in parte gli concederei questa cosa per come abbiamo scritto quel pezzo "Extraversion, for instance, could increase social contact through sociability while also increasing interpersonal conflict through dominance. Opposing indirect effects would make the total domain-level effect small, even if broader dispositional structure remains causally relevant. Facet-level analysis is therefore essential, but it does not eliminate the need to model higher-order structure." Lo ritarerei così da chiarire che estroversione può avere effetti su un outcome mentre le sue specifiche facet possono avere anche effetti opposti.
 
 -   
 
