@@ -252,6 +252,16 @@
 
 **Note ET:**
 
+**Note TF:**
+
+-   Concederei che un composite non può essere causalmente misspecified, perché non fa assunzioni sulle relazioni causali tra gli indicatori (e grazie al \*X\^"%). Quindi la nostra formulazione va corretta.
+
+    Però il punto resta: **non fare assunzioni causali non significa non fare assunzioni substantial**. La scelta degli item, dei pesi e di cosa aggregare implica comunque una certa rappresentazione del costrutto. Se gli indicatori sono semanticamente ridondanti o causalmente dipendenti, rischiamo di dare troppo peso ad alcuni processi o di sommare cause e conseguenze dello stesso fenomeno. Il composito rimane matematicamente corretto, ma non è detto che rappresenti bene ciò che ci interessa. Questo in special modo coi Big Five che son selezionati perchè correlati e tutti siamo d'accordo sul fatto che ci sarà qualche motivo per cui correlato. Di base qua sta la differenza tra cercare di fare scienza e capire le cose, e giocare a costruir le scale.
+
+    Comunque, di nuovo, qui sta il vantaggio del modello gerarchico: permette di separare la varianza comune da quella specifica, invece di aggregare tutto indistintamente, e di studiare quali componenti siano rilevanti per gli outcome. Senza pretendere che questa decomposizione identifichi automaticamente le cause.
+
+    Quindi **il loro agnosticismo causale non li rende automaticamente più appropriati o teoricamente informativi**.
+
 ------------------------------------------------------------------------
 
 #### R1.6d. Cross-instrument convergence (p. 14)
@@ -260,7 +270,9 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Posssiamo essere d'accordo sul fatto che i fattori non siano perfetti e non tornino sempre alla perfezione ovunque, ma covarying nuances covariano per qualche motivo. La nostra idea è spiegare questa covarianza con un insieme di cause comuni. I composite decidono attivamente di non spiegare la covarianza ma di sommare cose che covariano, il che li rende poco utili a comprendere.
 
 ------------------------------------------------------------------------
 
@@ -270,7 +282,9 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   L'altezza non è misurata in modo riflessivo perchè abbiamo trovato un modo per misurarla direttamente, ma potremmo tranquillamente misurarla e approssimarla usando un fattore latente e osservando i comportamenti della gente (es. quanto spesso guardi le persone dall'alto? quante volte ti capita di doverti abbassare per evitare di sbattere la testa? quanta fatica fai a raccogliere un oggetto dal pavimento? giochi a basket?). Potremmo sommare tutte queste risposte e sapere se sei alto, oppure possiamo passare migliaia di anni a ottimizzare uno strumento che riesca a misurare precisamente la causa di queste osservazioni comportamentali. In psicologia possiamo decidere di non farlo e sommare cose se preferisce così. Allo stesso modo possiamo misurare la pressione di una persona osservando quanto spesso sviene, se gli gira la testa, se si sente agitato e la resa agricola col numero di persone che muoiono di fame, la quantità di celiachi, l'uso di pasta e pane per cucinare. Abbiamo solo speso anni a migliorare le nostre conoscenze invece di arrenderci dopo 30 anni.
 
 ------------------------------------------------------------------------
 
