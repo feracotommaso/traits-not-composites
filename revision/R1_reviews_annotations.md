@@ -182,7 +182,7 @@
 
 -   Inoltre i nostri statement non violano la proporzionalità perchè semplicemente indicano come varianze specifiche a livello di facet possano avere effetti anche opposti, mentre l'effetto comune, se c'è, sarà sempre proporzionale. Però forse ha ragione e in parte gli concederei questa cosa per come abbiamo scritto quel pezzo "Extraversion, for instance, could increase social contact through sociability while also increasing interpersonal conflict through dominance. Opposing indirect effects would make the total domain-level effect small, even if broader dispositional structure remains causally relevant. Facet-level analysis is therefore essential, but it does not eliminate the need to model higher-order structure." Lo ritarerei così da chiarire che estroversione può avere effetti su un outcome mentre le sue specifiche facet possono avere anche effetti opposti.
 
--   
+-   Sul teorema del limite centrale faccio un po' fatica. Può sicuramente formarsi una struttura di covarianza compatibile con un fattore generale, ma non per questo resta una prova a sostegno del fattore generale. Allo stesso modo però, non sarebbe una prova di un composite e, soprattutto, non di un composite di facet che si ritroverebbero ad avere lo stesso problema + il problema della covarianza. Direi che potrebbe essere letto in entrambi i modi, ma crediamo che strutturare la varianza in generale + specifica sia sicuramente meglio che mettere tutto insieme.
 
 ------------------------------------------------------------------------
 
@@ -192,7 +192,11 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Qua credo che stia sbagliando alla grande. Tutti gli effetti specifici sulle singole componenti vengono assorbiti dalle varianze specifiche ma non vanno a influire sul fattore latente. Possiamo addirittura ricitargli Olaru et al. 2024 che testano l'invarianza ai diversi livelli per vedere se gli effetti del training sono generali e non specifici. Un modello composite questa roba non la fa. Quello che dice lui è esattamente ciò che la decomposizione della varianza ci permette di fare "even if a domain were a common cause of its facets, adjusting for it would close the backdoor path only for confounders that act on the exposure facet solely through the shared variance. "
+
+-   Per quanto riguarda la within-domain covariance, di nuovo, suddividere la varianza ti permette di individuare residui correlati tra componenti che si influenzano tra di loro più di quanto faccia il fattore generale. Questa correlazione residua viene modellata. Al contrario, in un composite, questi residui vengono sommati e risommati, quindi siamo certi di sbagliare...col SEM invece potremmo sbagliare, ma non sicuramente.
 
 ------------------------------------------------------------------------
 
