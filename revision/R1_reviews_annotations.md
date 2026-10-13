@@ -318,7 +318,23 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   La Whole Trait Theory può essere interpretata in modi diversi. Non essendo una teoria nostra, possiamo concedergli di togliere quel paragrafo, ma R2 ci dice che in effetti potrebbe starci. Potremmo in ogni caso usare queste teorie per dire che nessuna delle teorie più recenti vede i BF come dei semplici composite e, di conseguenza, i composite sono teoricamente poco utili e inaccurati. In generale si può distinguere tra differenza di un modello che cerca di cogliere la covarianza comune nelle differenze individuali tra persone e modelli di processo che cercano di capire come tali covarianze si formano.
+
+-   vanDerWeele: We agree with the reviewer that VanderWeele (2022) is critical of interpreting univariate latent variables as causally efficacious entities (but they also criticize the use of composites). However, our citation was intended to support a narrower point and a single sentence: that psychosocial constructs may involve multiple components with distinct causal relationships to outcomes. We believe this claim is consistent with VanderWeele's argument.
+
+-   Yarkoni: Grosz potrebbe contestare a ragione la citazione nel punto in cui l'abbiamo inserita, ma non è vero che Yarkoni sostenga il contrario della nostra posizione. Anzi, ci sono passaggi molto utili per noi:
+
+    -   **p. 331:** “there could be sensible pragmatic reasons to use reflective models” Yarkoni ammette esplicitamente che i modelli riflessivi possono essere utili anche senza realismo ontologico.
+
+    -   **p. 331:** “hundreds or thousands of distinct biological mechanisms” fa proprio l'esempio di *g* come astrazione di moltissimi meccanismi causali distinti, senza escludere l'uso di un modello riflessivo.
+
+    -   **p. 328, nota 2:** “compressed descriptions of the true causal processes” propone di considerare i costrutti teorici come rappresentazioni semplificate di processi causali complessi.
+
+    -   **p. 328:** “general factor models will often seem superior to many alternatives” riconosce che i modelli fattoriali generali possono essere preferibili per determinati obiettivi, per esempio la descrizione compatta e l'efficienza della misurazione.
+
+    Mi sembra quindi che Yarkoni sia molto vicino alla posizione che dovremmo difendere: un fattore latente può essere una rappresentazione statistica utile di una struttura causale complessa, senza dover essere una singola entità causale reale.
 
 ------------------------------------------------------------------------
 
@@ -418,6 +434,8 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Ringraziare e provare ad asciugare il più possibile. Discutiamo se è il caso di riscrivere praticamente tutto da zero quasi per integrare tutti i commenti precedenti
 
 ------------------------------------------------------------------------
