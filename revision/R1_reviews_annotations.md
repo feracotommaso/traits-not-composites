@@ -206,7 +206,9 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Mi piacerebbe vedere la sua rappresentazione e la possibilità di falsificare un composite.
 
 ------------------------------------------------------------------------
 
@@ -226,7 +228,9 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Non so cosa vuole che gli diciamo qui e forse non c'è bisogno di rispondergli davvero con delle revisioni. Forse gli direi che tutto ciò che dice dei fattori domain è ugualmente applicabile alle facet che per nessun motivo hanno ragione di essere latenti riflessive più dei domini...
 
 ------------------------------------------------------------------------
 
@@ -236,7 +240,9 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Siamo completamente d'accordo con questa affermazione. Puoi sommare tutto ciò che vuoi e fare un composite predittivo. Ma allora perchè sommare proprio le facet più correlate tra di loro e non le altre? Questa scelta prevede proprio l'assunzione che esista un qualcosa di comune che vogliamo calcolare. Se no, per l'achievement scolastico, facciamo un mix di facet di apertura all'esperienza e coscienziosità più correlate con i voti e chiamiamola personalità scolastica.
 
 ------------------------------------------------------------------------
 
@@ -245,8 +251,6 @@
 > (c) Composite models "leave important assumptions implicit" and "can fail" with locally dependent items (pp. 15–16). No reference is given, and the literature does not state such assumptions (Bollen, 2011; Bollen & Bauldry, 2011; Sarstedt et al., 2016). A composite makes no claim about the causal relations among its components and cannot be causally misspecified. It can be unsuitable for a purpose. The authors should state which assumptions they mean.
 
 **Note ET:**
-
--   
 
 ------------------------------------------------------------------------
 
