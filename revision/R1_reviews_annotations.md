@@ -294,7 +294,9 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Di nuovo, sta sbagliando a leggere tutto o quanto meno sta leggendo tutto come vuole. Queste sono solo prove del fatto che non riusciamo a cambiare il generale con certi tipi di interventi. L'intervento è il problema, semmai
 
 ------------------------------------------------------------------------
 
@@ -304,7 +306,9 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Si possono avere idee diverse, ma nessuna di queste idee contraddice la possibile esistenza di un fattore generale. Danno spiegazioni diverse, ma son tutte ipotesi alternative, non certezze.
 
 ------------------------------------------------------------------------
 
@@ -356,7 +360,11 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Non capisco come le facet possano avere un trattamento riflessivo diverso da quello dei tratti. Su che basi? Incollo il tuo messaggio arrivato in questo momento perchè sta bene anche qui e può star bene come conclusione:
+
+    -   rompiamogli comunque il \*%&/£ che i composite scores sacrifice analytically meaningful information for little and scientifically uncertain gain
 
 ------------------------------------------------------------------------
 
@@ -388,7 +396,9 @@
 
 **Note ET:**
 
--   
+**Note TF:**
+
+-   Ringrazierei dicendo che non abbiamo la pretesa di avere una soluzione o una risposta a questi dilemmi, ma siamo d'accordo con lui che sia giusto continuare a discuterne per poter trovare una risposta il più scientificamente corretta e che ci aiuti a 'comprendere' e non solo a 'predire'.
 
 ------------------------------------------------------------------------
 
@@ -398,7 +408,7 @@
 
 **Note ET:**
 
--   
+**Note TF:** Va benissimo, oppure proponiamo qualcosa come 'Treating The Big Five as Simple Composites Scores is Theoretically Deleterious: ....
 
 ------------------------------------------------------------------------
 
