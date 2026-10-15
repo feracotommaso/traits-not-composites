@@ -1,0 +1,49 @@
+**SUL PROBLEMA DEI BACKDOOR PATHS**
+
+In parte è un problema di come è scritto il commentary e in parte è un problema di sostanza. Il punto di sostanza però è più piccolo di quanto i reviewer facciano sembrare.
+
+1. Il testo del commentary dice meno di quello che intendete
+
+La posizione che descrivi è: SEM di default + path diretti teoricamente sensati tra le facet + fattore comune solo sulla covarianza residua + tutto questo solo se il fit è accettabile. Nel testo attuale (commentary/commentary.qmd:129-131) quasi nulla di questo è esplicito. Si legge invece:
+
+- "conditioning on that domain [...] amounts to conditioning on the shared causal background"
+- "For a distributed latent factor, controlling for the domain-level variance is the appropriate move"
+- "Representing it [...] is what closes the backdoor path"
+
+Mancano tre cose:
+- concedere i path diretti tra facet dove teoricamente sensati, che non compaiono come primo passo;
+- il fit accettabile, che non compare come condizione necessaria;
+- la contrapposizione giusta, che è "osservato disaggregato + SEM" vs "composite". Il testo invece contrappone "fattore latente" vs "composite senza struttura causale", e un lettore la prende come un'asimmetria di principio tra due tecniche di controllo. 
+
+Il fraintendimento dei reviewer è quindi in buona parte indotto dal testo. Qui la responsabilità è vostra, ma si risolve riscrivendo.
+
+2. Su un punto avete ragione voi
+
+Il reviewer R1.4 dice che l'asimmetria "cannot be right, because both the composite and the estimated factor are functions of the same indicators". Questo vale per i **factor score**, non per un SEM in cui si condiziona sulla latente **all'interno del modello**. Nel SEM:
+
+- l'errore di misura è modellato, quindi non c'è il confondimento residuo da inaffidabilità di Westfall & Yarkoni;
+- in un modello riflessivo, F è genitore delle facet, non figlio, quindi strutturalmente NON è un collider. Lo è invece un composite formativo, come sostengono Wysocki et al.
+
+Si può dunque rispondere che l'asimmetria esiste. Va però giustificata con questi argomenti e non con "causa comune vs aggregato arbitrario". E va precisato che vale condizionatamente al fatto che il modello riflessivo sia la struttura corretta.
+
+3. Qui i reviewer hanno un punto anche con la vostra posizione precisata
+
+(a) Il buon fit di per sé non garantisce per certo la struttura causale. Un buon fit dice che il modello è compatibile con i dati, non che la covarianza residua sia dovuta a cause comuni. Esistono modelli equivalenti o quasi equivalenti: un common factor contro reti di influenze reciproche, oppure cause diverse con struttura di covarianza simile. Inoltre le soglie convenzionali sono poco sensibili proprio a questo tipo di misspecificazione. È il senso della citazione di Hayduk (2014) e Rhemtulla et al. (2020) in R1.4. La vostra condizione "nella misura in cui il fit è buono" è necessaria ma non sufficiente.
+
+(b) Il confondimento facet-specifico è intestabile. Questo è il punto più importante. Prendiamo un confondente U che agisce su talkativeness e su networking ma non sulle altre facet:
+
+F → Talk, Soc, Ass
+Talk → Networking      (path stimato)
+U → Talk,  U → Networking   (non modellato)
+
+U genera covarianza tra il residuo di talkativeness e il networking (residuo correlato). Nel modello questa covarianza viene assorbita interamente dal path diretto Talk → Networking: quella parte è saturata e il fit non cambia. Nessun indice la rivela, e il path "facet-specifico" risulta distorto. Il fattore di dominio chiude quindi solo i backdoor path che passano per la varianza condivisa, cioè l'argomento della **proporzionalità**. Quelli specifici restano aperti e invisibili. Il SEM non sbaglia: semplicemente nessun modello di misura può risolvere questo problema.
+
+(c) "Path diretti teoricamente sensati" significa che decide la teoria. Quali path tra facet includere, e se una facet sia mediatore o confondente rispetto a X → Y, non lo stabilisce il modello di misura. Lo stabilisce il DAG che assumete. È esattamente ciò che chiedono i reviewer. Su questo siete già d'accordo con loro, ma il testo non lo dice.
+
+In sintesi
+
+- Spiegato male: sì, in larga parte. La procedura (SEM, path diretti, residuo, fit) va resa esplicita e il linguaggio va reso condizionale: "under a causal model in which…", non "is what closes".
+- Non capito qualcosa: su un punto sì, almeno in parte. Fit accettabile più struttura sensata non trasforma la covarianza residua in causa comune, e il confondimento specifico della facet resta fuori dalla portata del modello. Va ammesso esplicitamente, magari suggerendo analisi di sensibilità o disegni che identificano altrimenti l'effetto (multimethod, longitudinale, informant).
+- Frainteso dai reviewer: in parte. L'obiezione "factor score = composite" non tocca il SEM con latenti, e su questo potete difendere l'asimmetria.
+
+Se vuoi, preparo una riscrittura del paragrafo a commentary.qmd:129-131 su queste linee, più la risposta a R1.4.
