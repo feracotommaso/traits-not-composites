@@ -158,6 +158,8 @@
 
 [**Note ET:** Contestare la falsa dicotomia di Grosz: il domain factor non deve essere né una causa unitaria autonoma né un composite degli indicatori. Nella nostra interpretazione, il fattore rappresenta la risultante aggregata di tante determinanti causali condivise, infatti compatibile con una distribuzione normale, purché i loro effetti presentino una struttura comune sufficientemente unidimensionale. Non è dunque una causa misteriosa postulata per spiegare la covarianza. Inoltre Grosz trascura le potenzialità dei SEM gerarchici: questi permettono di distinguere varianza comune e specifica e di modellare esplicitamente le cause particolari da lui invocate (es. reward sensitivity), i loro effetti differenziali sulle facet e gli effetti causali delle componenti specifiche sugli outcome. Nessuna necessità di scegliere tra un fattore generale che spiega tutto e un modello esclusivamente facet-specific. I path causali richiedono naturalmente giustificazione teorica ed empirica, ma la complessità causale non invalida di per sé la decomposizione gerarchica. Distinguere l'utilità del fattore come rappresentazione di influenze condivise dalla sua eventuale sufficienza come variabile di aggiustamento causale.]
 
+[**Note TF:** rimarcare nuovamente che la varianza comune tra facet va spiegata e non può essere sommata nè ignorata]
+
 ------------------------------------------------------------------------
 
 ### R1.2c. Il "dilemma" (entity vs. composite)
@@ -166,15 +168,17 @@
 
 [**Note ET:** Qui forse il disaccordo fondamentale con Grosz. Grosz sembra invocare una causa comune unitaria per poter attribuire un senso causale; noi sosteniamo invece che il fattore sia (coincida con) una moltitudine di determinanti causali condivisi fra gli indicatori. Il punto cruciale è che queste stesse determinanti sono plausibilmente, almeno in parte se non in misura prevalente (ma è proprio ciò che si può studiare empiricamente coi SEM), anche responsabili di altri outcome rilevanti che noi vogliamo predire misurando la personalità. La varianza comune non è dunque privilegiata arbitrariamente, ma perché potrebbe rappresentare proprio quella componente del sistema causale che contribuisce a spiegare numerosi fenomeni esterni (analogamente a g nell'ambito cognitivo: le cause comuni tra i subtest sono anche le cause comuni ad outcome importanti nella vita reale). Non occorre postulare un'unica causa (straw man argument) né pretendere che essa esaurisca tutti gli effetti: un SEM gerarchico permette in linea di principio proprio di distinguere e modellare simultaneamente componenti generali e specifiche, valutandone separatamente le relazioni con gli outcome. L'effettiva sovrapposizione delle determinanti causali resta un'ipotesi empirica da verificare (e verificabile), ovviamente non qualcosa di garantito a priori dalla struttura fattoriale, che riflette solo un'ipotesi. La nostra proposta non è sostituire molte cause con una causa fittizia, ma rappresentarne la componente condivisa senza rinunciare alla complessità causale sottostante.]
 
+[**Note TF:** Aggiungerei di nuovo che lui dice che le evidence speks against us ma in realtà legge le evidenze come gli viene comodo]
+
 ------------------------------------------------------------------------
 
 ### R1.2d. Esempio concreto: reward sensitivity ed estroversione
 
 > A concrete case makes this clear. The commentary grants that "when those causes can be isolated and measured, they can be modeled directly" (pp. 4–5). Reward sensitivity, which the target article discusses as the best-supported candidate for a shared cause of the extraversion facets (DeYoung, 2015; Smillie et al., 2019), can be: the model that follows from the target article's position includes it as a measured variable and tests whether it accounts for the covariance among the facets with proportional effects. A higher-order factor that "stands in for" it together with whatever else produces the covariance instead absorbs the one mechanism that can be specified and tested into a variable that is "not posited as an entity" (p. 20). The target article's position is thus not opposition to common causes but the requirement that a common cause be named, measured, and tested
 
-**Note ET:**
+[**Note ET:**]
 
--   
+[**Note TF:** nel testo avevi addirittura già evidenziato questa parte del suo paper sottolineando come sia a nostro favore. Il nostro modello prevede proprio la ricerca di queste cause. Se 'reward sensitivity' è davvero una causa comune, tra le tante, di tutte le facet di estroversione, allora andrebbe sempre modellata, il fattore latente andrebbe a spiegare meno varianza e una parte di ciò che ancora non conosciamo sarebbe spiegato. Allo stesso modo, quando misuri le facet bisogna però controllare sempre per 'reward sensitivity' altrimenti sommi lo stesso più volte. Siamo totalmente d'accordo col nominare tutte queste cause comuni, ma bisogna trovarle e poterle misurare, ma finchè non sappiamo quali sono e come misurarle, meglio modellarle che ignorarle.]
 
 ------------------------------------------------------------------------
 
@@ -356,7 +360,7 @@
 
 **Note ET:**
 
--   
+[**Note TF:** ok]
 
 ------------------------------------------------------------------------
 
@@ -366,7 +370,7 @@
 
 **Note ET:**
 
--   
+[**Note TF:** ] semmai siamo d'accordo sul fatto che cambiare l'estroversione in toto sia difficile, non che sia impossibile.
 
 ------------------------------------------------------------------------
 
