@@ -20,6 +20,8 @@
 
 [**Note ET:** C'ha ragione, si può parlare di più di struttura gerarchica dei fattori del Big Five: distinguere esplicitamente varianza condivisa al broad-domain level (prioritaria), varianza specifica di facet/nuance e residuo/errore. Ridimensionare invece il tema dell’unidimensionalità, che nella submission è stata menzionata con troppa disinvoltura: mantenere solo il punto, subordinato, che unidimensionalità statistica e singolarità meccanicistica non coincidono, ma l'unidimensionalità non è la cosa che conta. Il fulcro dovrebbe diventare che il rigetto di un semplice modello reflective/common-cause non elimina né rende irrilevante la varianza comune tra componenti inferiori. Tale varianza va isolata e considerata prioritariamente nell’analisi, senza però identificarla automaticamente con una specifica causa condivisa: separare sempre descrizione psicometrica, rappresentazione statistica e interpretazione causale. ]
 
+[**Note TF:**] Mi sembra che sia quello che volevamo fare, ma probabilmente l'abbiamo detto male, quindi benvenga.
+
 ------------------------------------------------------------------------
 
 ### E2. This has direct implications for the proposed modeling strategy
@@ -35,6 +37,8 @@
 > The analogy with cognitive abilities can also be made more precise. The hierarchical treatment of cognitive ability does not require one to choose between general and specific abilities. Rather, both levels are modeled, and researchers ask which level explains or predicts a particular outcome. This is a central feature of contemporary hierarchical models of cognitive abilities (see, e.g., Schneider & McGrew, 2018). I believe this is a more useful analogy for the present argument than treating the existence of g as evidence for a particular causal ontology.
 
 [**Note ET:** Giusto, mi sembra ovvio, evviva i SEM]
+
+[**Note TF:** Non trovo l'articolo di Moshagen a cui si riferisce, ma siamo d'accordo su tutto qui]
 
 ------------------------------------------------------------------------
 
@@ -70,6 +74,8 @@
 
 [**Note ET:** E4 segue da E3. Il punto dell’editor è corretto solo a metà. Un latent factor non è per forza un valido adjustment variable, ok, dipende dal vero modello causale. Ma da questo di nuovo non segue che il fattore latente sia solo una decomposizione descrittiva senza uso causale. Se parte della covarianza tra facet è generata da cause comuni, un latent factor può rappresentare quella componente comune; se esistono anche cause facet-specifiche, vanno modellate separatamente. Se esistono effetti diretti o reciproci tra facet, vanno modellati anch’essi. La realtà può benissimo contenere tutte queste cose insieme. Common causes e reciprocal causation non sono alternative. Quindi va ritirata la formulazione troppo forte secondo cui conditioning on the latent factor chiude di per sé i backdoor paths. Ma sarebbe sbagliato passare all’estremo opposto e concludere che il latent factor non possa avere ruolo causale. Può averlo, se il modello causale lo giustifica, o nella misura in cui lo giustifica. Prima viene la teoria del perché c'è la covarianza; di conseguenza viene l’aggiustamento.]
 
+[**Note TF:** vedere il txt per spiegare meglio il backdoor]
+
 ------------------------------------------------------------------------
 
 ### E5. “Approximate proportionality” needs a clearer status
@@ -81,6 +87,8 @@
 > Reviewer 1's suggestion to work through one concrete domain—such as extraversion and its facets—is therefore valuable. A worked example could make the proposed framework much more falsifiable and informative.
 
 [**Note ET:** Qui c’è da chiarire cosa intendiamo per approximate proportionality. Banalmente e primariamente, approximate può voler dire che gli indici di fit vanno bene anche se non sono precisamente perfetti, questo è già codificato nei cutoff di accettabilità. Seconda cosa, un modello gerarchico ammette cause e interventi a livelli diversi: domain-common, facet-specific e item-specific: un intervento che modifica sociability ma non assertiveness mostra che non ha agito principalmente attraverso il fattore generale di Extraversion, ma non significa che il fattore sovraordinato non esista: questo non è stato capito né dall'editor né da Grosz mi pare. Annotarsi che gli effetti eterogenei degli interventi non sono minimamente evidenza contro il domain factor. Approximate proportionality deve essere una proprietà testabile della componente common-cause del modello attraverso gli indici di fit pre-intervento, non un requisito imposto indiscriminatamente a qualsiasi antecedente o intervento.]
+
+[**Note TF:** Manca però effettivamente da specificare come si può confutare un modello gerarchico. Ad esempio, invarianza di misura pre-post intervento sulla parte gerarchica, direzione degli effetti longitudinali del cambiamento, altro???]
 
 ------------------------------------------------------------------------
 
@@ -127,6 +135,8 @@
 > Several passages attribute an explanatory ambition to the composite-formative model: composites are said to be treated as "the preferred ontological interpretation" (p. 12), to be mistaken for "a solution to an explanatory problem" (p. 12), and to take "the explanatory credit of common causes without paying the modeling cost of representing them" (p. 17). The target article states the opposite, repeatedly and explicitly: the composite-formative model "makes no assumptions about causal effects from or on the indicators" and is recommended for descriptive and predictive research only. Big Five composites "are not very helpful when the goal is to investigate causal effects" (see also Table 2). For explanation, theory building, and interventions the target article recommends narrower traits assessed with multiple methods, for which it proposes reflective (common-cause) models (e.g., talkativeness assessed by self-report, informant report, and audio recordings). The "third path" dilemma (p. 17) therefore misdescribes the target article's position: it claims no explanatory credit for composites. It claims that the sources of within-domain covariance are several (shared genetic and environmental influences, direct effects among narrow traits, semantic overlap, response styles) and cannot appropriately be represented by a single latent variable. Two smaller misreadings: the remark that "simulating correlated variables without specifying a data generating process … is misleading" (p. 13) does not apply to Figure 2 of the target article, whose population model is fully specified and whose purpose is to illustrate the handling of measurement error, not to explain covariance; and "the narrow level that Grosz wants to move to" (p. 8) is not the single item but narrow traits measured with multiple indicators and methods. I would ask the authors to correctly portray the target article and quote the target article wherever they characterize its position.
 
 [**Note ET:** Concedere che Grosz propone i composite per descrizione/predizione e mai per spiegazione causale, e che la sua alternativa include narrow traits misurati con più indicatori e metodi (non solo single items). Resta aperto il problema della ragione della covarianza tra narrow traits: i vari meccanismi riconosciuti da Grosz non escludono l'utilità di rappresentarne la componente comune mediante fattori latenti, senza necessariamente interpretarli come tante (troppe) singole cause, mai indagabili a sufficienza in ciascun singolo studio. Sulla Figure 2, distinguere tra modello generativo statistico (effettivamente specificato perché i parametri di correlazione sono leciti) e meccanismi causali generativi (non specificati): la simulazione è legittima ma non discrimina tra interpretazioni strutturali: le cose non "correlano" e basta, correlano perché c'è una certa struttura causale.]
+
+[**Note TF:** Il problema che vediamo sia nel testo che nella simulazione è lo stesso. Accettare che cose correlino senza spiegarlo. Lui in effetti non propone di spiegarlo, ma ignora la necessità di farlo.]
 
 ------------------------------------------------------------------------
 
