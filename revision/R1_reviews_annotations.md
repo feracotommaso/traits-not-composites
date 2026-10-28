@@ -186,7 +186,7 @@
 
 > The commentary states that "approximate proportionality is the relevant assumption; mechanistic singularity is unnecessary" (p. 4), without a reference or a definition. The condition, as I understand it, is that if many causes act on a set of indicators only through a single latent variable, their effects on the indicators must be proportional to the loadings. Proportionality is therefore not an assumption to be granted but an implication that can be checked, and the evidence the commentary itself discusses speaks against it: genetic and environmental influences act directly on facets and items rather than only through the domain (Briley & Tucker-Drob, 2012; Franić et al., 2014), and an extraversion intervention changed sociability (d = 0.89–1.00) but not assertiveness (d = 0.12–0.15; Olaru et al., 2024). The commentary's own statements, "an intervention rarely changes extraversion as a whole" (p. 18) and facets predicting an outcome in opposite directions (p. 20), are violations of proportionality, and the proposed rescue of the latter, opposing indirect effects through facets, makes the domain's effects entirely mediated by the facets, so that the causally relevant variables are the facets. Finally, proportionality that holds only in the aggregate of many small causes, the situation invoked with the central-limit argument (pp. 5–6), holds for no particular cause or intervention. This is Thomson's (1916) bonds model, in which tests correlate only because they sample overlapping subsets of many elementary causes. It reproduces the covariance structure of a factor model exactly, so that the two cannot be distinguished statistically, and its general factor is the sum of the sampled causes, an index rather than a common cause (Bartholomew et al., 2009; Revelle, 2024). The "distributed common cause" the commentary defends is, when spelled out, this model, and it is a composite model.
 
-**Note ET:**
+**Note ET:** yes, proportionality can definitely be tested via fit indices, and it's approximate because there are thresholds for acceptability; genetic and environmental influences can act directly on facets and obviously on items, that's why specific and error variance exists (it always exists!, and it's assumed to be normally distributed, so it's taken for granted that it's a sum of countless various specific influences at various level) but this doesn't exclude that there are higher-order influences and shared variance; specific interventions may well act on lower order elements, as it's the well known case of cognitive trainings, which routinely show benefit on specific areas but not on g, but this doesn't say that g does not exist or is not relevant; it's unclear to me what is said about the the thomson's model implication and its relationship with the sum of sampled causes - however the sum of sampled causes as g does not seem to be the same as the sum of observed scores, there seems to be confusion here 
 
 **Note TF:**
 
@@ -204,7 +204,7 @@
 
 > I agree with the commentary's own statement that "the right adjustment depends on the causal graph, which depends on the theory" (p. 19): for the Big Five, that graph is exactly what is unknown, the commentary offers no theory of it, and misfit does not reveal it (Hayduk, 2014; Rhemtulla et al., 2020). The commentary also claims that "for a distributed latent factor, controlling for the domain-level variance is the appropriate move to close backdoor paths through the shared etiology; for a purely composite score with no declared causal structure, the concern raised by Wysocki et al. applies" (p. 19). This asymmetry cannot be right, because both the composite and the estimated domain factor are weighted sums of the same items (Borsboom et al., 2003, on the "operational latent variable"; Revelle, 2024). The Wysocki et al. (2022) concern therefore applies to both procedures or to neither, and the claim that one of them is "the appropriate move" should be withdrawn. Moreover, even if a domain were a common cause of its facets, adjusting for it would close the backdoor path only for confounders that act on the exposure facet solely through the shared variance. A confounder with an additional facet-specific effect (say, a stronger effect on sociability than on assertiveness) leaves that part of the path open, and the commentary itself expects the causes' effects to be only "approximately proportional" (p. 4). And if facets or items affect one another directly, which the target article names as one source of within-domain covariance, the domain score contains mediators or colliders of the facet's or item’s effect, so adjusting for it can add bias rather than remove it (Wysocki et al., 2022). This is also why the target article advises against using the Big Five, under either measurement model, as variables in research on causal effects (Table 2 of the target article).
 
-**Note ET:**
+**Note ET:** Non è obiettivo del commentary dare la soluzione del tutto della personalità. La teoria causale deve esserci e deve sempre sospettare che quando c'è varianza condivisa ci siano cause comuni, ma non esclude possa esserci causalità diretta: nel caso di causalità diretta soprattutto deve esserci una teoria però. "The estimated domain factor" è un "weighted sum of the same items" come il composito solo se si vuole calcolare lo score fattoriale, non se si resta dentro il SEM: questa differenza è cruciale. Il punto sul fatto che un confounder più fortemente legato a una facet che ad altre conservi una quota di effetto specifico è vero, ma che problema pone? è esattamente ciò per cui i SEM sono utili. 
 
 **Note TF:**
 
@@ -218,7 +218,7 @@
 
 > The commentary lists tools (facet factors, method factors, correlated residuals, direct dependencies, cross-loadings, network edges, hierarchical structures; pp. 10, 21) but does not specify a model for any Big Five domain: which causes are represented at which level, which residuals are correlated on which theoretical grounds, and what would count as the model's failure. "Post-hoc repairs reserved for cases of misfit" (p. 21) and "strong deviations should appear as poor fit" (p. 6) place the burden on fit statistics, but perfectly fitting factor models can be causally misspecified (Hayduk, 2014; Rhemtulla et al., 2020; a general factor fits nineteen body-size measurements, Revelle, 2024, Figure 4), and a framework that absorbs any pattern of residual dependence by adding factors, residual correlations, or edges is difficult to falsify (Cramer et al., 2012). I suggest that the authors specify one model for one domain (for example, extraversion with the BFI-2 facets), state what the domain factor refers to, and state which empirical results would lead them to abandon the domain-level factor in favor of a facet-level or composite representation.
 
-**Note ET:**
+**Note ET:** abbandonerei un domain-level factor sovraordinato alle facet solo se le facet si rivelassero sostanzialmente ortogonali: un cattivo fit anche dopo aver specificato le facet non parlerebbe contro il domain-level factor, ma contro l'intera struttura fattoriale facet incluse, e imporrebbe in realtà di rivedere gli item per possibili riformulazioni o raffinamenti psicometrici
 
 **Note TF:**
 
@@ -240,7 +240,7 @@
 
 > (a) Reliability (pp. 8–9). Single-item retest reliabilities are typically .6–.7 (Henry et al., 2022; Henry & Mõttus, 2025; Revelle, 2024), which is moderate rather than "noisy"; domain-score reliability follows from aggregation and requires no common factor (Sijtsma et al., 2024); and the recommendation to use item retest reliabilities rests on the finding that item-specific variance is stable, the opposite of what the commentary takes it to concede. The target article proposes multi-method assessment for narrow traits, so reliability at the narrow level is a matter of design.
 
-**Note ET:**
+**Note ET:**  domain-score reliability in che senso non richiede common factor? di solito la reliability non indica proprio la presunta quota di varianza condivisa col vero fattore latente sotto assunzioni? la stabilità temporale del single item va bene ma aggrega molte cose e non è chiaro quanta sia la stabilità a ciascun livello; 
 
 **Note TF:**
 
@@ -252,7 +252,7 @@
 
 > (b) "The existence of a useful composite presupposes that the indicators hang together" (p. 14). Composite-formative indicators require neither conceptual unity nor intercorrelation (Bollen & Bauldry, 2011; Bollen & Diamantopoulos, 2017); polygenic scores are composites of largely uncorrelated variants, and for prediction weakly correlated components are preferable (Borsboom et al., 2004; Revelle, 2024).
 
-**Note ET:**
+**Note ET:** sì se abbiamo scritto così abbiamo sbagliato forse, anzi un buon composite ha più senso se le cose aggregate NON sono correlate, perché sennò c'è più o meno ridondanza degl indicatori e questo è pericoloso; giustissimo; il punto in realtà è proprio l'opposto, forse ci eravamo spiegati male: il composite dovrebbe mettere insieme cose che si associano teoricamente a un certo outcome, ma non per forza e non tanto che sono direttamente associate tra di loro per quanto possibile 
 
 **Note TF:**
 
@@ -264,7 +264,7 @@
 
 > (c) Composite models "leave important assumptions implicit" and "can fail" with locally dependent items (pp. 15–16). No reference is given, and the literature does not state such assumptions (Bollen, 2011; Bollen & Bauldry, 2011; Sarstedt et al., 2016). A composite makes no claim about the causal relations among its components and cannot be causally misspecified. It can be unsuitable for a purpose. The authors should state which assumptions they mean.
 
-**Note ET:**
+**Note ET:** se siamo in ottica puramente operazionalista ok, altrimenti un composite, che sia una variabile dipendente o un predittore è un modo scientificamente improprio di definire delle relazioni, dove cose diverse vengono impacchettate rigidamente e la loro struttura di relazioni con altre cose finisce vincolata in modo stringente
 
 **Note TF:**
 
@@ -282,7 +282,7 @@
 
 > (d) Cross-instrument convergence (p. 14) is what composites of items sampled from the same pool of covarying nuances predict. It is aggregation, not evidence for a common cause. The evidence is also less uniform than stated (Miller et al., 2011, on BFI versus NEO-PI-R Agreeableness; Laajaj et al., 2019; Grosz, 2024).
 
-**Note ET:**
+**Note ET:** perché cross-instrument convergence dovrebbe dirimere tra composites e higher-order latent factor? (comunque "covarying" è un falso ideologico: le cose non covariano per niente, covariano se ci sono dei fattori latenti comuni oppure se in qualche modo c'è causalità diretta o indiretta tra una cosa e l'altra)
 
 **Note TF:**
 
@@ -294,7 +294,7 @@
 
 > (e) The central-limit argument (pp. 5–6) applies to height, blood pressure, and crop yield, none of which is modeled reflectively. The additive result of many small causes is, if anything, a composite of those causes.
 
-**Note ET:**
+**Note ET:** sono cose osservate direttamente (con minimo margine di approssimazione/errore): nessuno si sogna di dover raccogliere più indicatori della stessa cosa per approssimarla in questi casi; non capisco il discorso sul composite of causes per il limite centrale: si fa confusione tra somma di molteplici cause e somma di indicatori (sum score) e somma di cose indipendenti perché è vantaggioso nella pratica aggregarle insieme (ok per il practitioner, poco per ricerca)
 
 **Note TF:**
 
@@ -306,7 +306,7 @@
 
 > (f) Working-memory training (pp. 16–17). Lack of far transfer is exactly what a composite model predicts, because changing one component does not change the others; the example does not discriminate between the readings. Olaru et al. (2024) is the personality analogue.
 
-**Note ET:**
+**Note ET:** no, l'esempio dato non è affatto pertinente ed è perfettamente leggibile dentro un modello gerarchico; qui la confusione è grave: anzi, la mancanza di far transfer parla proprio a favore di un modello gerarchico in cui le frecce vanno dall'alto (g) verso il basso (componenti specifiche) anziché in favore di un modello orizzontale dove le causalità sono dirette tra le componenti/facet specifiche: se fosse vera la causalità diretta, un intervento efficace sulla memoria di lavoro dovrebbe trasferirsi direttamente alle componenti cognitive che la memoria di lavoro supporta; il fatto che il beneficio resta localizzato parla contro questa visione "network" (che è implicitamente spesso creduta da chi crede nei far transfer, perché almeno in questo caso la giustificazione per crederci è proprio che la memoria di lavoro faccia da supporto diretto a prestazioni cognitive in altri domini)
 
 **Note TF:**
 
@@ -318,7 +318,7 @@
 
 > (g) The intelligence and syndrome analogies (pp. 7–8, 16) present those fields as more settled than they are: g has been interpreted as a formative index (van der Maas et al., 2014) and the positive manifold explained without a general cause (e.g., van der Maas et al., 2006; Bartholomew et al., 2009); Fried et al. (2022), VanderWeele (2022), Eronen (2025), and Borsboom (2023) reach the same conclusions for depression and intelligence, and neuroticism.
 
-**Note ET:**
+**Note ET:** c'è ampissima evidenza dell'esistenza di cause comuni nell'intelligenza (vedi Warne o Richard Haier: componenti genetiche, neurobiologiche, o ambientali quali l'istruzione, tendono ad avere effetti generali); se dobbiamo cercare qualcosa contro il fattore g lo possiamo cercare ad esempio nell'effetto Flynn, che ha dimostratamente un effetto differenziato sui vari dominii... quel caso è molto interessante perché suggerisce che si possano differenziatamente potenziare diverse cose anche senza potenziare g; ma ciò non toglie che entro-popolazione, a parità di effetto Flynn, il fattore g esista e conti e sia predittivo di esiti rilevanti nella vita reale; i ricercatori che si occupano dell'effetto Flynn danno spesso per scontato che esista g e stanno dentro quel framework; le ricerche citate sono eterodosse dentro lo studio dell'intelligenza, Gignac, Beaujean e altri hanno già risposto a quelle critiche, e anche dove le critiche sono utili lo sono limitatamente a eventuali network tra i residui; una visione puramente mutualista e network dell'intelligenza solleva più problemi che altro e non è stata mai dimostrata; trovo più utile il mutualismo in psicopatologia (pure lì comunque ci sono proposte, come l'HiTOP, che invece puntano a modelli gerarchici)
 
 **Note TF:**
 
@@ -330,8 +330,8 @@
 
 > (h) Sources cited in support that argue the opposite. VanderWeele (2022), cited on p. 18, argues that a univariate causally efficacious latent variable generally does not exist, that models with a few latent variables "still wrongly equate reality to a few univariate latents," and that item-by-item analyses are needed. Whole Trait Theory (p. 21) places the descriptive side of traits in density distributions of states and their explanation in social-cognitive mechanisms, and Yarkoni (2020) argues against implicit realism about constructs; neither supports the use made of it.
 
-**Note ET:**
-
+**Note ET:** accertiamoci di non citare articoli a sproposito, rileggiamoli 
+ 
 **Note TF:**
 
 -   La Whole Trait Theory può essere interpretata in modi diversi. Non essendo una teoria nostra, possiamo concedergli di togliere quel paragrafo, ma R2 ci dice che in effetti potrebbe starci. Potremmo in ogni caso usare queste teorie per dire che nessuna delle teorie più recenti vede i BF come dei semplici composite e, di conseguenza, i composite sono teoricamente poco utili e inaccurati. In generale si può distinguere tra differenza di un modello che cerca di cogliere la covarianza comune nelle differenze individuali tra persone e modelli di processo che cercano di capire come tali covarianze si formano.
