@@ -1,0 +1,353 @@
+---
+title: "Response to the Editor and Reviewers"
+subtitle: "The Big Five Need Not Be Simple Composite Scores: A Commentary on Grosz (2026)"
+format:
+  docx: default
+---
+
+Dear Professor Ziegler,
+
+Thank you for the opportunity to revise our commentary, and thanks to both reviewers. We have rewritten most of the manuscript. The main changes are:
+
+1. The commentary is now organized around the decomposition of domain variance into shared variance, reliable facet-specific variance, and error (E1, E2). Unidimensionality no longer plays a role in the argument.
+2. Psychometric decomposition, statistical representation, and causal interpretation are kept apart throughout (E3). The domain factor is presented as a causal hypothesis with testable restrictions, not as an established entity.
+3. The section on causal adjustment is rewritten in conditional form, around an explicit graph (E4, R1.4).
+4. Approximate proportionality is defined, its testable content is stated, and the ways in which the hierarchical model can fail are specified, with tolerances declared in advance (E5, R1.3, R1.5).
+5. A new section specifies one model for extraversion, with a figure: self- and informant reports, method factors, and an explicit assumption of no direct effects among facets. The lavaan syntax and a check on simulated data are deposited on OSF (E2, E5, R1.5).
+6. The position of the target article is now described with quotations and page numbers from the version of record (R1.1, R1.m3, R1.m4).
+7. We rewrote the central-limit argument and removed the blood-glucose and syndrome analogies, the working-memory example, the cross-instrument argument, the "operationalist retreat" framing, and the closing dilemma. We also corrected several citations, including a misattribution to Wysocki et al. (2022) that the reviewers did not flag.
+8. The title follows Reviewer 2's suggestion. The body of the text is down from about 5,400 to about 3,250 words.
+
+We still disagree with Reviewer 1 on four points, explained below. First, the dilemma between a domain factor as an entity and as a composite is a false one: the factor can stand for the shared part of many causes, as in the bonds model the reviewer cites (R1.2b, R1.2c). Second, the twin evidence is domain-specific, and for extraversion it retained the hierarchical common-pathway model (R1.2a). Third, as the reviewer notes in R1.6f, non-proportional intervention effects do not discriminate between a hierarchical and a composite reading (R1.6f, R1.3). Fourth, the equivalence between latent and composite adjustment holds for factor scores, not for a latent variable estimated within a structural model (R1.4).
+
+The commentary contains no data. The lavaan syntax for the model in Figure 1 and the code for the figure are available at [OSF link], and we apply for the Open Materials badge.
+
+Sincerely,
+
+Tommaso Feraco and Enrico Toffalini
+
+Below, comments are quoted in full and followed by our responses. Page numbers for the target article refer to the version of record (Psychological Review, advance online publication).
+
+# Editor
+
+## E1. The hierarchical nature of Big Five traits
+
+> The manuscript repeatedly discusses whether broad personality domains can be considered “unidimensional.” I think this framing needs to be reconsidered because unidimensionality is meaningful only relative to a particular level of analysis and a specified set of indicators. Cronbach (1951) already cautioned that “Tests divisible into distinct subtests should be so divided before using the formula.” This is directly relevant here. Broad Big Five domains are explicitly hierarchical constructs consisting of distinguishable lower-order facets. A facet may be sufficiently unidimensional with respect to its own items, but a broad domain is not unidimensional in the same sense. Each facet contains variance shared with the higher-order domain as well as reliable facet-specific variance. Indeed, if facets contained no meaningful specific variance, there would be little substantive reason for distinguishing them in the first place.
+>
+> This point is also closely related to the distinction discussed by Ziegler and Hagemann (2015) between unidimensionality at the level at which a scale is intended to operate and the inappropriate treatment of multidimensional structures as if they were homogeneous. Similarly, Ziegler and Bäckström (2014) emphasize that lower-order components can contain meaningful specific variance that should not automatically be regarded as error. I therefore think the manuscript should move away from a general question of whether “the Big Five are unidimensional” and instead ask a more precise question:
+>
+> How much variance is shared at the broad domain level, how much remains specific to the facets or narrower traits, and which of these levels is relevant for the substantive criterion under investigation?
+>
+> This would substantially sharpen the argument.
+>
+> Importantly, the manuscript already comes close to this position. It argues that hierarchical models should retain substantive variance at the facet, nuance, item, method, and residual levels, and later explicitly advocates hierarchical SEMs that separate domain-level common variance from lower-order specificity. I would encourage you to consider making this variance decomposition—not the more general claim about “distributed common causes”—the organizing principle of the commentary.
+
+**Response.** We agree, and the hierarchical decomposition is now the organizing principle. The Introduction asks how much variance the facets share, how much is reliable and facet-specific, which component carries the variance relevant to a criterion, and what produces the shared part. It cites Cronbach (1951), Ziegler and Hagemann (2015), and Ziegler and Bäckström (2016). We assume the latter is the paper cited as Ziegler and Bäckström (2014); please let us know if another paper was meant. Unidimensionality no longer plays a role in the argument.
+
+## E2. Implications for the modeling strategy
+
+> If the constructs are hierarchical, the appropriate statistical model should also be hierarchical.
+>
+> When SEM is used, the model should explicitly distinguish at least: variance common to the broad domain, reliable facet-specific variance, and measurement error.
+>
+> The central substantive question then becomes whether an external variable is associated with the domain-common component, facet-specific components, or both.
+>
+> If observed-score regression is used instead, I would argue that the facets, rather than a single domain composite, should generally be entered into the model. Their covariance represents the common trait core, whereas their unique portions permit examination of facet-specific relations. The key empirical question then becomes whether the broad common core is sufficient or whether the facets contribute meaningfully beyond it. This is closely related to the bandwidth–fidelity problem and to work asking whether broad personality dimensions or narrower traits are more informative for particular criteria. In this context, I encourage the authors to engage with Moshagen et al. (2021, EJP). Their work is relevant because the interesting question is not simply whether a broad factor “exists,” but whether the common factor or the specific lower-order components carry the criterion-relevant variance.
+>
+> The analogy with cognitive abilities can also be made more precise. The hierarchical treatment of cognitive ability does not require one to choose between general and specific abilities. Rather, both levels are modeled, and researchers ask which level explains or predicts a particular outcome. This is a central feature of contemporary hierarchical models of cognitive abilities (see, e.g., Schneider & McGrew, 2018). I believe this is a more useful analogy for the present argument than treating the existence of g as evidence for a particular causal ontology.
+
+**Response.** We agree. The new section "A Specified Model for Extraversion" separates domain-common, facet-specific, and error variance, and asks whether a criterion relates to the common component, to the assertiveness-specific component, or to both. The model is compared with a model of freely correlated facets, which corresponds to entering facets rather than a composite (the text now says so), and with a common-only model, which tests whether the common core is sufficient. We now cite Moshagen (2023; published online 2021), which we assume is the paper you referred to: omitting specific associations with a covariate can bias the estimated association of the general factor, even in sign. The analogy with cognitive abilities is now methodological, as you suggest: general and specific abilities are modeled jointly, and the criterion decides which level matters (Schneider & McGrew, 2018). One technical point is now stated in the text. With a single criterion, paths from the domain and from all specific components cannot be estimated together (cf. Eid et al., 2018), so some specific paths must be fixed on substantive grounds.
+
+## E3. Psychometric decomposition versus causal explanation
+
+> This point is also central to Reviewer 1's critique and, in my view, needs substantial revision.
+>
+> At several places, the manuscript appropriately characterizes a higher-order factor as a model-based representation of shared variance. For example, the manuscript states that the factor can represent shared variance generated by multiple partly overlapping causes rather than a single mechanism.
+>
+> I see no fundamental problem with that as a psychometric representation. However, elsewhere the argument becomes considerably stronger. The domain factor is described as representing the “shared causal background,” and the causal-inference section suggests that conditioning on this higher-order factor may close backdoor paths through shared etiology. That conclusion does not follow from covariance decomposition alone.
+>
+> A hierarchical factor model can tell us that a set of facets shares variance. It cannot, on its own, tell us why they share variance. Shared causes, reciprocal relations among facets, semantic overlap, response styles, method effects, social processes, or combinations of these mechanisms may generate similar covariance structures. The manuscript itself acknowledges precisely this ambiguity elsewhere.
+>
+> Thus, I would recommend making the following distinction explicit throughout:
+>
+> A hierarchical latent model can provide a useful decomposition of shared and specific variance without thereby establishing the causal mechanism responsible for that variance.
+>
+> This would preserve what I see as the strongest part of your argument while avoiding an overinterpretation of latent variables as identified causal entities.
+
+**Response.** We agree that covariance decomposition does not identify the mechanism. We removed the statements that equated the domain factor with the shared causal background. Where the text says that the factor stands for shared causes, it now says so as a hypothesis ("on this reading", "the hypothesized shared part of the causes"). We did not move to the opposite extreme. The arrows of a structural model encode causal assumptions (Bollen & Pearl, 2013), so a hierarchical model can state a causal hypothesis about the shared variance and test some of its implications without establishing it. The Introduction now makes this distinction, and the rest of the text applies it: the decomposition is descriptive; the causal reading is a hypothesis whose restrictions can fail; fitting the model tests some of its implications and establishes none of them (Bollen & Pearl, 2013; Hayduk, 2014; Rhemtulla et al., 2020).
+
+The alternative sources of shared variance you list are an argument for modeling that variance, not for summing it. Semantic overlap and response styles are not extraversion, but a composite contains them, weighted like everything else, and cannot tell how large they are. The specified model separates what can be separated: rater-specific styles go to one method factor per rater (self- and informant reports), declared near-paraphrases to residual covariances. Whether what remains in the domain factor is more than artifact is testable, because artifacts in questionnaires should not predict leadership rated by observers or reward processing measured electrophysiologically. The text now makes this point ("What Composites Keep and What They Lose"): even if the shared variance were partly artifact, it would have to be modeled to be removed. Direct effects among facets are excluded by an explicit assumption, which the text flags as substantive. A direct path declared in advance can be added to the model; a composite has no place for it. Cross-sectional data cannot separate the two sources; longitudinal data can help.
+
+## E4. Causal-adjustment claims
+
+> Relatedly, I find the causal-adjustment section too strong in its present form.
+>
+> The argument that conditioning on a latent domain factor represents adjustment for a shared causal background, whereas conditioning on a composite does not, depends on assumptions that are not established by the measurement model. As Reviewer 1 notes, whether adjustment closes a backdoor path depends on the causal graph and on how causes act on the individual facets.
+>
+> This is particularly important given your own position that causes may act only approximately proportionally across indicators. If etiological factors have facet-specific effects, then a broad domain factor will not necessarily capture all relevant confounding. If facets also influence one another, conditioning on a broad score could in some circumstances introduce rather than reduce bias.
+>
+> I therefore suggest either substantially rewriting this section or limiting it to a much more modest point: measurement error and hierarchical construct structure matter for causal inference, but the appropriate adjustment set must be justified by an independently specified causal model. The current language implying that the latent factor itself solves the causal-adjustment problem should, in my view, be removed.
+
+**Response.** We agree and rewrote the section. The claim that conditioning on the domain factor closes backdoor paths by itself is gone. The section now (a) agrees that broad domains are poor treatment variables and that the adjustment set requires an independently specified graph; (b) states, for the graph in Figure 1, when adjusting for the domain factor blocks confounding by shared causes: they must affect the exposure facet only through the domain, which is what approximate proportionality means for causal inference; the effect then estimated is the path from the facet-specific component to the criterion; (c) concedes that a confounder with a facet-specific effect leaves a path open, is not revealed by fit, and is not closed by any measurement model; (d) explains why adjusting for the latent variable within the structural model differs from adjusting for a factor score or a composite; and (e) addresses your point on facets that influence one another. A composite of such facets contains consequences of the exposure. The domain factor is free of them only under the assumption of no direct effects among facets, which the model states explicitly; if it fails, the estimated factor absorbs part of those consequences, and the problem returns. All claims are conditional on the model being correct.
+
+## E5. The status of approximate proportionality
+
+> The manuscript's notion of approximate proportionality is potentially useful, but it currently appears partly as an assumption that licenses the higher-order representation. I agree with the reviewer that this needs to be treated more explicitly as an empirical proposition.
+>
+> If domain-level common variance is to be substantively meaningful, then the degree to which lower-order facets respond similarly to antecedents, interventions, and outcomes becomes relevant. Strongly non-proportional effects—for example, an intervention strongly changing one facet but hardly affecting another—are not necessarily fatal to a hierarchical model, but they do constrain what can be claimed about the common domain. I would therefore encourage you to specify what evidence would count against the higher-order representation for a given research purpose. At present, the framework risks becoming too flexible: facet factors, residual correlations, method factors, networks, and direct paths can all be added in response to misfit. A useful framework should also specify circumstances in which one would conclude that the broad domain contributes too little to warrant substantive interpretation.
+>
+> Reviewer 1's suggestion to work through one concrete domain—such as extraversion and its facets—is therefore valuable. A worked example could make the proposed framework much more falsifiable and informative.
+
+**Response.** Approximate proportionality is now defined as a restriction with testable content, not as an assumption that licenses the model ("What a Domain Factor Represents"). The effect of any single cause can always be split into a proportional part and a facet-specific remainder, so the split alone tests nothing. The testable content is in the aggregate: uncorrelated facet-specific components (testable with four or more facets), common pathways for genetic and environmental influences in twin data, and no direct effects of measured candidate causes on the facets. "Approximate" refers to misfit judged against tolerances declared in advance.
+
+To address the flexibility concern, tolerances are declared before the analysis: a maximum residual correlation among the specific components, a minimum hierarchical omega for the domain factor, and a smallest effect of interest for each path. The specified model then distinguishes three failures with different consequences: failure of the restriction (the hierarchy must be revised, or abandoned for that instrument); a domain contribution to a criterion below the smallest effect of interest (the facet level is the relevant one for that criterion); and non-proportional effects of a candidate cause (it is not a domain-level cause). Modifications suggested by the data are new hypotheses for new data.
+
+You also ask when the broad domain contributes too little to warrant substantive interpretation. We now answer in two ways. We would abandon the domain factor if hierarchical omega fell below the tolerance, that is, if the facets shared little variance across raters. And while a single failure of the second or third kind does not count against the domain factor, many do: a factor that predicts no criterion beyond its facets and through which no measured cause acts has no substantive content, and we would stop interpreting it.
+
+On interventions, we agree that strongly non-proportional effects constrain what can be claimed about the domain. One such effect constrains the claim that the intervention changed the domain, not the existence of domain-common variance; the target article's own description of the reflective model predicts that a local intervention stays local (Grosz, 2026, p. 3). If all interventions and measured causes acted on single facets, the domain would lose substantive content, as stated above.
+
+## E6. Administrative requests
+
+> In summary, I ask the authors to address these issues as well as the very valuable reviewer comments.
+>
+> When submitting your revision, please be sure to apply for all Open Science badges that apply. As per our Open Science Policy (attached), almost all manuscripts should be eligible for Open Materials Badge and most also for Open Data Badge.
+>
+> I expect that the revision will be reviewed again.
+>
+> Please accompany the revised manuscript with a text (Authors' Response) that lists the concerns raised by the Reviewers and myself, and describes your responses to them. In case you cannot address any of the concerns, or prefer not to, please describe your reasons for this.
+>
+> Although a revised version of this manuscripts could be publishable in the journal, I cannot guarantee this yet. It depends on how you will address the concerns.
+>
+> Please ensure that the revision complies with our Submission Guidelines at journals.sagepub.com/author-instructions/erp, Open Science Policy (attached) and Evaluation Criteria (attached).
+
+**Response.** This letter lists all comments and our responses. The commentary contains no data. The lavaan syntax and the code for Figure 1 are deposited on OSF, and we apply for the Open Materials badge. The abstract has 200 words.
+
+# Reviewer 1
+
+## R1.0. Summary
+
+> The commentary engages seriously with Grosz (2026), which I call “target article” in the current review. The authors agree with the target article's central negative claim that the Big Five are not five entities that cause the item responses. They also reject the simple reflective model (one common cause, local independence). The disagreement concerns what should replace that model. The authors propose
+>
+> -   that each domain be represented by a higher-order latent variable that "stands in for a constellation of causes whose joint effects on the indicators are approximately proportional" (p. 4).
+>
+> -   that this representation is explanatory whereas a composite is not
+>
+> -   that it is appropriate for confounder adjustment whereas a composite is not; and
+>
+> -   that it is "concrete and already implementable" (p. 21) as a hierarchical SEM.
+>
+> The question the commentary raises, what licenses the step from "not simple common causes" to "composites," is legitimate, and I would welcome the commentary's publication together with a response by me. As the author of the target article, I have focused mainly on points that can be checked against the two texts and the cited literature.
+
+**Response.** We thank Reviewer 1 for a detailed and useful review. We now agree with the target article on more points than before, and the Introduction says so explicitly. The four claims summarized above are now stated more narrowly: the domain factor is a causal hypothesis with testable restrictions, not an explanation in itself (R1.2c); its use for adjustment is conditional on a specified graph (R1.4); and the hierarchical model is now specified for one domain (R1.5). Where we still disagree, we give our reasons below.
+
+## R1.1. Characterization of the target article
+
+> Several passages attribute an explanatory ambition to the composite-formative model: composites are said to be treated as "the preferred ontological interpretation" (p. 12), to be mistaken for "a solution to an explanatory problem" (p. 12), and to take "the explanatory credit of common causes without paying the modeling cost of representing them" (p. 17). The target article states the opposite, repeatedly and explicitly: the composite-formative model "makes no assumptions about causal effects from or on the indicators" and is recommended for descriptive and predictive research only. Big Five composites "are not very helpful when the goal is to investigate causal effects" (see also Table 2). For explanation, theory building, and interventions the target article recommends narrower traits assessed with multiple methods, for which it proposes reflective (common-cause) models (e.g., talkativeness assessed by self-report, informant report, and audio recordings). The "third path" dilemma (p. 17) therefore misdescribes the target article's position: it claims no explanatory credit for composites. It claims that the sources of within-domain covariance are several (shared genetic and environmental influences, direct effects among narrow traits, semantic overlap, response styles) and cannot appropriately be represented by a single latent variable. Two smaller misreadings: the remark that "simulating correlated variables without specifying a data generating process … is misleading" (p. 13) does not apply to Figure 2 of the target article, whose population model is fully specified and whose purpose is to illustrate the handling of measurement error, not to explain covariance; and "the narrow level that Grosz wants to move to" (p. 8) is not the single item but narrow traits measured with multiple indicators and methods. I would ask the authors to correctly portray the target article and quote the target article wherever they characterize its position.
+
+**Response.** We agree with most of this comment and corrected the text. The target article recommends composites for description and prediction only, claims no explanatory role for them, and recommends narrow traits assessed with multiple methods for causal research. The text now states this (Introduction and "What Composites Keep and What They Lose"). The "third path" paragraph, "operationalist retreat", and the reference to the narrow level "that Grosz wants to move to" are removed. We withdraw the remark on simulated correlations: the population model of Figure 2 is fully specified.
+
+Two qualifications. First, the target article does make an ontological claim: the Big Five "are best understood as composites of personality items—not as real entities that cause item responses" (Grosz, 2026, p. 1). We quote it, because it is the claim we dispute. Second, we now discuss Figure 2 on its own terms ("What Composites Keep and What They Lose"). In its population, the outcome correlates .26 with the reliability-corrected composite and .30 with the common factor. These values estimate different quantities: the correlation with the composite's true score, which includes reliable item-specific variance, and the correlation with the variance the items share. Because all item–outcome correlations are equal, these data cannot tell whether reliable item-specific variance contributes to the outcome. The reflective value assumes that it does not; the composite value mixes both sources. Calling the reflective value an overcorrection presupposes the first estimand. Which estimand is relevant is the question the editor raises in E2.
+
+## R1.2. Interpretation of the latent variable
+
+> The commentary's key move is to keep the reflective (hierarchical) model while denying that the latent variable is an entity: the factor is "a model-based representation of shared variance generated by many partly overlapping causes" (p. 4) and "not posited as an entity" (p. 20), yet "controlling for it means controlling for that shared background" (p. 20) and "is what closes the backdoor path" (p. 19). I see two issues:
+
+**Response.** See our responses to R1.2a–R1.2d.
+
+## R1.2a. What a reflective latent variable must be
+
+> I agree with the authors that the latent variable in a unidimensional reflective model may itself be produced by many biological and environmental causes, which is exactly what Figure 1 of the target article depicts. What the model does require is that these many causes act on the indicators through a single variable, so that the indicators are conditionally independent given that variable (e.g., Borsboom et al., 2003; Eronen, 2025). Blood glucose is multicausal, as the commentary notes (p. 7), but every cause of blood glucose affects the meter readings through one variable, the concentration of glucose in the blood. Hence, the readings satisfy a reflective model and the target article uses the analogy. Such a variable is an entity in the sense the reflective model requires ("Entity realism about latent variables is needed to motivate the choice for the reflective model over the formative model"; Borsboom et al., 2003). The evidence indicates that no such variable exists for a Big Five domain: genetic and environmental influences act directly on facets and items (Briley & Tucker-Drob, 2012; Franić et al., 2014), and interventions move facets and items non-proportionally (Olaru et al., 2024). A set of causes with different effects on different facets is not a common cause of the facets; Cramer et al. (2012), cited on p. 11, discuss and reject exactly this "placeholder for everything we do not (yet) understand" use of a reflective latent variable.
+
+**Response.** We adopt the reviewer's formulation. A reflective model does not require a single upstream cause; it requires that the causes act on the indicators through a single variable, so that the indicators are conditionally independent given that variable. In a hierarchical model, this applies, approximately, to the causes shared across facets; causes acting on single facets are represented by facet-specific components. This is the target article's Figure 1 with a facet level added.
+
+The evidence cited does not reject this model in general. Briley and Tucker-Drob (2012) tested exactly this structure: a common pathway through the domain, plus facet-specific genetic and environmental influences. It was retained for extraversion (Δχ² = 2.70, *df* = 2, *p* = .26) and openness (*p* = .29), and rejected for agreeableness (*p* = .01), neuroticism (*p* < .001), and, at the margin, conscientiousness (*p* = .05; Table 8). The authors describe the result for extraversion and openness as "consistent with a conceptualization of genetic and environmental effects being filtered through latent traits" (pp. 755–756). Retaining a model does not confirm it, and the text says so. The point is that the restriction could fail, and for three domains it did. The target article reports the result accurately as holding for "three of the five domains" (p. 4); the qualifier is lost on p. 6. Extraversion, the domain the reviewer proposes for our worked example, is one of the two for which the hierarchical common-pathway model was retained.
+
+Franić et al. (2014) did not model facets. Their common-pathway model has five domains fully mediating the genetic and environmental influences shared by 60 items. We agree that this model fails, and we would expect it to. The same authors found five-factor structures in both the genetic and the environmental covariance matrices, and considered that full mediation may "provide a reasonable approximation to the generating model" (p. 602), while giving priority to the formal test.
+
+On Olaru et al. (2024), see R1.6f: as the reviewer notes there, non-proportional change does not discriminate between the two readings.
+
+On the "placeholder" objection (Cramer et al., 2012): latent variables that stand for sets of unmeasured causes are routine, including in the evidence the reviewer cites. The additive genetic factor in twin models stands for thousands of unmeasured variants. Wysocki et al. (2022, p. 11), also cited by the reviewer, recommend a variable U "to stand in for a set of nonspecific common causes." Cramer et al. themselves allow that a latent placeholder is more defensible in some cases. What separates a useful placeholder from an empty one is whether it imposes restrictions that can fail. Ours does (E5).
+
+## R1.2b. A latent variable defined by shared variance
+
+> If the domain factor has no identity beyond the shared variance of a particular set of indicators, which is what "not posited as an entity" (p. 20) appears to mean, then it is constructed out of the indicators and cannot be their cause: "One cannot claim that A causes B, and at the same time maintain that A is constructed out of B" (Borsboom et al., 2003, p. 217). The practices that distinguish a reflective model from a composite, treating unique variance as error, disattenuating structural relations, and adjusting for the factor as a common cause, then lose their justification: "to argue for a common factor model requires a case to be made that only the shared variance and not the unique variance of items is of interest. We can think of no rationale for such a case that does not hinge on a common cause" (Rhemtulla et al., 2020, footnote 2; similarly Eronen, 2025, on local independence for a summary statistic). The composite-formative model represents this situation accurately: it defines the domain score as a function of the indicators, which is what a shared-variance factor is, without asserting that the score causes them.
+
+**Response.** We agree that a variable constructed out of its indicators cannot be their cause (Borsboom et al., 2003, p. 217). On our reading, the domain factor is not constructed out of the facets. It stands for the shared part of the facets' causes. We had written that the factor is "not posited as an entity", meaning that it is not a single mechanism. The phrase invited the reading the reviewer gives it, and it is removed.
+
+The reviewer's own example makes the distinction precise. In Thomson's bonds model, tests correlate because "some of these bonds are common to two tests and cause their correlation" (Thomson, 1951, p. 309, as cited in Bartholomew et al., 2009, p. 569). A general factor read into this model aggregates the shared bonds, which are causes. A composite of the test scores aggregates the indicators, including the bonds that each test draws on alone and measurement error. These are different variables: the first is upstream of the tests, the second downstream. The factor aggregates causes, the composite aggregates indicators. This is where we part from the target article, and the commentary now says so in these terms. Thomson "had no objection to proceeding as if the factors were real" (Bartholomew et al., 2009, p. 568).
+
+We also agree with Rhemtulla et al. (2020, footnote 2) that the case for a common factor must "hinge on a common cause". Ours does. We add only that the common cause may be a set of causes that act approximately proportionally. Finally, we do not regard unique variance as uninteresting. The hierarchical model keeps reliable facet-specific variance as a substantive component, separate from error (E1).
+
+## R1.2c. The dilemma
+
+> The commentary therefore faces a dilemma. Either the domain factor refers to a variable through which all shared causes act, in which case it is an entity and the evidence speaks against it; or it is the shared variance of the indicators, in which case it is a composite with particular weights, and the causal uses made of it in the causal-inference section are unavailable. The commentary's own conclusion takes the second horn: latent trait dimensions "belong primarily to the descriptive level" (p. 21), and Big Five domains are "stable, reproducible patterns of covariation among narrower tendencies" (p. 3). A pattern of covariation is a description, and the model that says so is the composite model. A (hierarchical) reflective model, however, asserts that the domain causes the facets and the facets cause the items (that is what the arrows mean; Bollen & Pearl, 2013; Eronen, 2025), and the causal-inference section uses the domain as a cause. Nor does a factor whose only content is that it makes the facets covary explain the covariance; it re-describes it (Borsboom, 2023, compares such trait explanations to Molière's virtus dormitiva; Cramer et al., 2012, note the circularity). If the explanation consists of the mechanisms the commentary lists on p. 3, then explaining means identifying and modeling those mechanisms, which the target article recommends at the level of narrow traits.
+
+**Response.** We do not accept the dilemma, because its two horns are not exhaustive. The domain factor is neither a single entity through which every cause acts nor a weighted sum of the indicators. It stands for the shared part of the facets' causes (R1.2b). Causes with facet-specific effects act through facet-specific components, and the model states which. This is a causal hypothesis, and the causal uses in the revised text are conditional on it (E4).
+
+The *virtus dormitiva* objection applies to an explanation that predicts nothing beyond what it re-describes. The hierarchical hypothesis predicts uncorrelated facet-specific components, common pathways in twin data, and proportional effects of measured shared causes. These predictions can fail. Where strict proportionality failed (neuroticism in Briley & Tucker-Drob, 2012), what failed is the common pathway, not the shared variance: the hierarchical model locates the departures as facet-specific effects. Full mediation by a single domain factor is implausible, and we do not defend it; approximate proportionality is plausible and testable.
+
+We also corrected our own phrases that supported the second horn. "Not posited as an entity" is removed. "Belong primarily to the descriptive level" is replaced by a distinction between between-person causal structure, which a hierarchical model can represent (Borsboom et al., 2003, p. 211), and within-person processes, which are the object of process theories. We agree that explaining the covariance ultimately means identifying and modeling the mechanisms. The hierarchical model is where measured mechanisms enter (R1.2d); it does not compete with that program.
+
+## R1.2d. Reward sensitivity
+
+> A concrete case makes this clear. The commentary grants that "when those causes can be isolated and measured, they can be modeled directly" (pp. 4–5). Reward sensitivity, which the target article discusses as the best-supported candidate for a shared cause of the extraversion facets (DeYoung, 2015; Smillie et al., 2019), can be: the model that follows from the target article's position includes it as a measured variable and tests whether it accounts for the covariance among the facets with proportional effects. A higher-order factor that "stands in for" it together with whatever else produces the covariance instead absorbs the one mechanism that can be specified and tested into a variable that is "not posited as an entity" (p. 20). The target article's position is thus not opposition to common causes but the requirement that a common cause be named, measured, and tested
+
+**Response.** We agree that a measured candidate cause must be modeled, and the revised text does so. In Figure 1, reward sensitivity, assessed independently of the questionnaire, predicts the domain factor, and direct paths to the facet-specific components test whether its effects are proportional. This is the test the reviewer describes. However, "proportional effects" means proportional to the facets' loadings on a shared component. The test requires the hierarchical model; it is not an alternative to it.
+
+Two further points. In the study cited (Smillie et al., 2019), the reward positivity correlated .26 with extraversion, .21 with agentic and .19 with affective extraversion, and neither aspect predicted it once the other was partialled out (*r* = .16 and .12). With *N* = 100 this is not conclusive, but it is the pattern expected from a cause acting on what the aspects share. Moreover, a correlation of .26 leaves most of the shared variance unexplained, and the target article itself calls reward-related processing "only one of several partial mechanisms" (p. 6). Once reward sensitivity is in the model, the rest of the shared variance still needs a representation. Without one, the facet residuals remain correlated with no account of why.
+
+## R1.3. Approximate proportionality
+
+> The commentary states that "approximate proportionality is the relevant assumption; mechanistic singularity is unnecessary" (p. 4), without a reference or a definition. The condition, as I understand it, is that if many causes act on a set of indicators only through a single latent variable, their effects on the indicators must be proportional to the loadings. Proportionality is therefore not an assumption to be granted but an implication that can be checked, and the evidence the commentary itself discusses speaks against it: genetic and environmental influences act directly on facets and items rather than only through the domain (Briley & Tucker-Drob, 2012; Franić et al., 2014), and an extraversion intervention changed sociability (d = 0.89–1.00) but not assertiveness (d = 0.12–0.15; Olaru et al., 2024). The commentary's own statements, "an intervention rarely changes extraversion as a whole" (p. 18) and facets predicting an outcome in opposite directions (p. 20), are violations of proportionality, and the proposed rescue of the latter, opposing indirect effects through facets, makes the domain's effects entirely mediated by the facets, so that the causally relevant variables are the facets. Finally, proportionality that holds only in the aggregate of many small causes, the situation invoked with the central-limit argument (pp. 5–6), holds for no particular cause or intervention. This is Thomson's (1916) bonds model, in which tests correlate only because they sample overlapping subsets of many elementary causes. It reproduces the covariance structure of a factor model exactly, so that the two cannot be distinguished statistically, and its general factor is the sum of the sampled causes, an index rather than a common cause (Bartholomew et al., 2009; Revelle, 2024). The "distributed common cause" the commentary defends is, when spelled out, this model, and it is a composite model.
+
+**Response.** We agree that proportionality is a testable implication rather than an assumption to be granted, and the revised text treats it so (E5). We disagree with three of the conclusions drawn.
+
+First, the evidence. As detailed in R1.2a, the twin evidence is domain-specific and retained the common pathway for extraversion and openness. The intervention evidence does not discriminate (R1.6f).
+
+Second, our own statements. "An intervention rarely changes extraversion as a whole" described interventions that target concrete behaviors, as the target article notes (p. 5). Such interventions are expected to change facet-specific variance, and the target article's description of the reflective model makes the same prediction for tutoring in French (p. 3). On facets that predict an outcome in opposite directions, the reviewer is right that our "opposing indirect effects" made the domain's effects fully mediated by the facets. We removed it. The revised text says that domain-common and facet-specific components can relate differently, even in sign, to the same criterion, and that their contributions must be estimated jointly (Moshagen, 2023). This does not violate proportionality, which concerns the shared component.
+
+Third, Thomson. We agree that the distributed common cause we defend is close to Thomson's bonds model. We disagree that this makes it a composite model. Thomson's bonds are causes of the tests; a general factor read into the model aggregates shared causes, whereas a composite aggregates indicators, together with test-specific bonds and error (R1.2b). That the two models cannot be distinguished statistically (Bartholomew et al., 2009) cuts both ways: covariance does not settle the ontology, in either direction.
+
+The reviewer is right that proportionality holding only in the aggregate holds for no particular cause. Where a single cause has a facet-specific remainder, that remainder is a facet-specific confounder of the kind discussed in R1.4, and domain-level adjustment leaves it open. The revised text states the condition for sufficiency (shared causes affect the exposure facet only through the domain) and treats departures from it as facet-specific confounding. The central-limit argument now concerns only the distribution of the shared causes, not their proportionality (R1.6e).
+
+## R1.4. Causal inference
+
+> I agree with the commentary's own statement that "the right adjustment depends on the causal graph, which depends on the theory" (p. 19): for the Big Five, that graph is exactly what is unknown, the commentary offers no theory of it, and misfit does not reveal it (Hayduk, 2014; Rhemtulla et al., 2020). The commentary also claims that "for a distributed latent factor, controlling for the domain-level variance is the appropriate move to close backdoor paths through the shared etiology; for a purely composite score with no declared causal structure, the concern raised by Wysocki et al. applies" (p. 19). This asymmetry cannot be right, because both the composite and the estimated domain factor are weighted sums of the same items (Borsboom et al., 2003, on the "operational latent variable"; Revelle, 2024). The Wysocki et al. (2022) concern therefore applies to both procedures or to neither, and the claim that one of them is "the appropriate move" should be withdrawn. Moreover, even if a domain were a common cause of its facets, adjusting for it would close the backdoor path only for confounders that act on the exposure facet solely through the shared variance. A confounder with an additional facet-specific effect (say, a stronger effect on sociability than on assertiveness) leaves that part of the path open, and the commentary itself expects the causes' effects to be only "approximately proportional" (p. 4). And if facets or items affect one another directly, which the target article names as one source of within-domain covariance, the domain score contains mediators or colliders of the facet's or item’s effect, so adjusting for it can add bias rather than remove it (Wysocki et al., 2022). This is also why the target article advises against using the Big Five, under either measurement model, as variables in research on causal effects (Table 2 of the target article).
+
+**Response.** We agree with much of this comment and rewrote the section (E4). The claim that adjusting for the domain factor is "the appropriate move" is removed. We state the condition under which this adjustment blocks confounding by shared causes (they affect the exposure facet only through the domain, in which case the remaining effect is the path from the facet-specific component), and we concede, with an example, that a confounder with a facet-specific effect remains open, is invisible to fit, and is not closed by any measurement model.
+
+We maintain one asymmetry, with a different justification. A composite and a factor score are both weighted sums of items, and for these the reviewer's equivalence holds; this is the "operational latent variable" of Borsboom et al. (2003). A latent variable estimated within a structural model is not a weighted sum of items. Under a correctly specified model, adjusting for it means adjusting for the shared component itself, net of facet-specific variance and error. Adjusting for a proxy that contains these leaves residual confounding (Westfall & Yarkoni, 2016), which is why Wysocki et al. (2022, p. 3) require control variables to be measured without error or within "a model that deals with the measurement error". Correcting a composite for unreliability, as in Figure 2 of the target article, removes error but not facet-specific variance. In addition, in Figure 1 the domain factor is a parent of the facets and contains no consequences of the exposure, whereas a composite of facets that affect each other does. We agree with the reviewer that this rests on an assumption: no direct effects among facets. The model now states it explicitly, and the text says that if it fails, the estimated factor absorbs part of the consequences of the exposure. All of this is conditional on the model being correct, and the text says so.
+
+We also corrected our use of Wysocki et al. (2022). The original text attributed to them an argument about controlling for composite scores. The paper does not discuss composites; we now cite it only for what it says.
+
+On "the commentary offers no theory of [the graph]": the revised commentary specifies one graph for one question (Figure 1). It is illustrative, but explicit, and it shows where the domain factor helps and where it does not. We agree that broad domains are poor treatment variables; the revised text says so.
+
+## R1.5. Specification and failure criteria
+
+> The commentary lists tools (facet factors, method factors, correlated residuals, direct dependencies, cross-loadings, network edges, hierarchical structures; pp. 10, 21) but does not specify a model for any Big Five domain: which causes are represented at which level, which residuals are correlated on which theoretical grounds, and what would count as the model's failure. "Post-hoc repairs reserved for cases of misfit" (p. 21) and "strong deviations should appear as poor fit" (p. 6) place the burden on fit statistics, but perfectly fitting factor models can be causally misspecified (Hayduk, 2014; Rhemtulla et al., 2020; a general factor fits nineteen body-size measurements, Revelle, 2024, Figure 4), and a framework that absorbs any pattern of residual dependence by adding factors, residual correlations, or edges is difficult to falsify (Cramer et al., 2012). I suggest that the authors specify one model for one domain (for example, extraversion with the BFI-2 facets), state what the domain factor refers to, and state which empirical results would lead them to abandon the domain-level factor in favor of a facet-level or composite representation.
+
+**Response.** We now specify one model ("A Specified Model for Extraversion", Figure 1; lavaan syntax and a check on simulated data on OSF). We state what the domain factor refers to (the hypothesized shared part of the causes of the facets), which residuals may be correlated and why (only pairs declared in advance), which criterion paths are estimated and why, and what would lead us to revise or abandon the domain factor, with tolerances declared in advance (E5). Following the target article's own standard for narrow traits, facets are measured by self- and informant reports, with one method factor per rater, so that response styles do not enter the domain factor. External criteria rated by others test whether what remains is more than artifact (E3). The model also states that it assumes no direct effects among facets; a direct path declared in advance can be added.
+
+We used the six NEO facets rather than the BFI-2. With three facets, a second-order factor is just-identified, so its central restriction cannot be tested from the facet covariances. The suggested example would have produced a model that cannot fail where it matters.
+
+On fit, we agree that it is not sufficient (Hayduk, 2014; Rhemtulla et al., 2020), and the text says so. It is, however, necessary, and the specified model can fail in three distinct ways (E5). On flexibility, modifications suggested by the data are treated as new hypotheses for new data.
+
+We read Revelle's (2024, Figure 4) nineteen body measures differently. Arm length does not cause chest diameter. The measures covary because they share causes of growth: genetic, nutritional, hormonal. A general size factor represents that shared background. Calling it "a formative sum of the component measurements" describes how a score could be computed, not why the measurements covary.
+
+Finally, a composite cannot fail any of these tests, because it makes none of the corresponding claims. The text notes this.
+
+## R1.6. Further claims
+
+> I list these briefly and would develop them in a response.
+
+**Response.** See our responses to R1.6a–R1.6h.
+
+## R1.6a. Reliability
+
+> (a) Reliability (pp. 8–9). Single-item retest reliabilities are typically .6–.7 (Henry et al., 2022; Henry & Mõttus, 2025; Revelle, 2024), which is moderate rather than "noisy"; domain-score reliability follows from aggregation and requires no common factor (Sijtsma et al., 2024); and the recommendation to use item retest reliabilities rests on the finding that item-specific variance is stable, the opposite of what the commentary takes it to concede. The target article proposes multi-method assessment for narrow traits, so reliability at the narrow level is a matter of design.
+
+**Response.** We agree and removed the paragraph. Single-item retest reliabilities around .65 (Henry et al., 2022) are moderate, and the target article proposes multi-method assessment for narrow traits. The point we retain is different: retest reliability tells how stable a score is, not how its reliable variance divides into domain-common and facet-specific parts. Henry et al. (2022) also found that item and facet retest reliabilities track cross-rater agreement, which suggests that the specific variance is valid. This is why the hierarchical model keeps it as a substantive component rather than as error.
+
+## R1.6b. Composites and intercorrelation
+
+> (b) "The existence of a useful composite presupposes that the indicators hang together" (p. 14). Composite-formative indicators require neither conceptual unity nor intercorrelation (Bollen & Bauldry, 2011; Bollen & Diamantopoulos, 2017); polygenic scores are composites of largely uncorrelated variants, and for prediction weakly correlated components are preferable (Borsboom et al., 2004; Revelle, 2024).
+
+**Response.** We agree that composite indicators need not be correlated (Bollen & Bauldry, 2011), and the text now says so. Our point concerns the Big Five. The target article notes that, for the Big Five, correlated items are what make the composites efficient summaries (p. 7). A composite built for prediction would combine items from several domains, as the target article also notes (p. 9). The Big Five composites do not, because they summarize covariance. That covariance is what we propose to model.
+
+## R1.6c. Assumptions of composite models
+
+> (c) Composite models "leave important assumptions implicit" and "can fail" with locally dependent items (pp. 15–16). No reference is given, and the literature does not state such assumptions (Bollen, 2011; Bollen & Bauldry, 2011; Sarstedt et al., 2016). A composite makes no claim about the causal relations among its components and cannot be causally misspecified. It can be unsuitable for a purpose. The authors should state which assumptions they mean.
+
+**Response.** We agree that a composite makes no causal claim and cannot be causally misspecified, and we removed "can fail" and "leave important assumptions implicit". The point is now stated differently: a composite cannot be misspecified, just as a definition cannot be false; nor can it be tested, since, as the target article notes, a composite measurement model "yields perfect fit" (p. 9); and it says nothing about how the data were generated. Its non-causal choices (items, weights, coverage) still matter for interpretation. With locally dependent items, for example, a sum counts an upstream process twice. This concerns suitability for a question, not misspecification, and the text says so.
+
+## R1.6d. Cross-instrument convergence
+
+> (d) Cross-instrument convergence (p. 14) is what composites of items sampled from the same pool of covarying nuances predict. It is aggregation, not evidence for a common cause. The evidence is also less uniform than stated (Miller et al., 2011, on BFI versus NEO-PI-R Agreeableness; Laajaj et al., 2019; Grosz, 2024).
+
+**Response.** We agree and removed the argument. Convergence across instruments is what aggregation over covarying items predicts, and it is less uniform than we stated (Miller et al., 2011). We note only that a "pool of covarying nuances" restates the question rather than answering it. The nuances covary for reasons, and those reasons are what we propose to model.
+
+## R1.6e. The central-limit argument
+
+> (e) The central-limit argument (pp. 5–6) applies to height, blood pressure, and crop yield, none of which is modeled reflectively. The additive result of many small causes is, if anything, a composite of those causes.
+
+**Response.** We kept the argument but rewrote it, because the original wording suggested more than we meant ("What a Domain Factor Represents"). It is not offered as evidence for a reflective over a composite model. Its point is that the shared causes of the facets are unknown, presumably many, and observed only through their effects; their joint effect is then expected to be approximately Gaussian, as latent factors are usually modeled. A normally distributed factor is thus consistent with many causes, not with one. The additive genetic factor in twin models is the precedent: it stands for countless unknown variants, is inferred only from their effects, and is Gaussian because it sums many small effects (Fisher, 1918).
+
+We agree that the additive result of many small causes is "a composite of those causes". This is our point. A composite of causes, upstream of the indicators, is a different variable from a composite of the indicators, which also contains their specific variance and error (R1.2b). Height and blood pressure are not modeled reflectively because they are measured directly with small error; there is nothing to infer from their effects. When body size is measured through many indicators, a general factor fits (Revelle, 2024, Figure 4), and the indicators covary because they share causes of growth (R1.5).
+
+## R1.6f. Working-memory training
+
+> (f) Working-memory training (pp. 16–17). Lack of far transfer is exactly what a composite model predicts, because changing one component does not change the others; the example does not discriminate between the readings. Olaru et al. (2024) is the personality analogue.
+
+**Response.** We agree that the lack of far transfer does not discriminate between a hierarchical and a composite reading, and we removed the working-memory paragraph. The same argument applies to Olaru et al. (2024), which the reviewer calls "the personality analogue". If local change without transfer does not discriminate for *g*, local change in sociability without change in assertiveness does not discriminate for extraversion. It therefore cannot count against the domain factor in R1.2a and R1.3. The revised text treats intervention evidence accordingly: a non-proportional effect shows that the intervention acted below the domain. We add two remarks. In Olaru et al., observers reported the reverse of the self-reports: an increase in assertiveness (*d* = 0.40 at follow-up) and no significant change in the other facets, including sociability. The text now reports both. And if anything, the absence of transfer sits less comfortably with accounts in which components facilitate each other directly, which predict that change should spread (van der Maas et al., 2006).
+
+## R1.6g. Intelligence and syndrome analogies
+
+> (g) The intelligence and syndrome analogies (pp. 7–8, 16) present those fields as more settled than they are: g has been interpreted as a formative index (van der Maas et al., 2014) and the positive manifold explained without a general cause (e.g., van der Maas et al., 2006; Bartholomew et al., 2009); Fried et al. (2022), VanderWeele (2022), Eronen (2025), and Borsboom (2023) reach the same conclusions for depression and intelligence, and neuroticism.
+
+**Response.** We agree that we presented these fields as more settled than they are. The syndrome analogy is removed. The intelligence analogy is now methodological, as the editor suggested: general and specific abilities are modeled jointly, whatever the nature of *g*, which the text notes is still debated (van der Maas et al., 2006). The alternatives cited (mutualism, bonds, formative readings of *g*) fit the same covariance structure (Bartholomew et al., 2009). Their existence shows that covariance does not settle the ontology. It shows this for the composite reading too.
+
+## R1.6h. Sources cited in support
+
+> (h) Sources cited in support that argue the opposite. VanderWeele (2022), cited on p. 18, argues that a univariate causally efficacious latent variable generally does not exist, that models with a few latent variables "still wrongly equate reality to a few univariate latents," and that item-by-item analyses are needed. Whole Trait Theory (p. 21) places the descriptive side of traits in density distributions of states and their explanation in social-cognitive mechanisms, and Yarkoni (2020) argues against implicit realism about constructs; neither supports the use made of it.
+
+**Response.** We rechecked these sources. VanderWeele (2022) criticizes both readings: formative models "misconstrue the relation between the constructed measures and the underlying reality", and reflective models misconstrue that reality by presuming it unidimensional (abstract). We now cite him only for the point that broad constructs make poorly defined treatments. His diagnosis favors richer, multivariate representations, which is the direction of a hierarchy rather than of a single composite. Whole Trait Theory is now cited only for the distinction between between-person structure and within-person processes. Yarkoni (2020) is removed.
+
+## R1.m1. Terminology
+
+> "Latent variable" is used throughout as synonym for latent variable in reflective common-cause models (reflective measurement models). Latent variables also occur in other models, for example in causal-formative and latent composite models (Table 1 and Figure 2 of the target article).
+
+**Response.** Agreed. We now use "domain factor", "hierarchical model", or "reflective model" where we mean these, and "latent variable" only in its general sense.
+
+## R1.m2. Separability section
+
+> The separability section (pp. 7–9) mixes several issues (blood glucose, syndromes, the inferential target, reliability), and its argument is hard to follow. The relevant property of blood glucose is not causal simplicity but that it can be identified and manipulated independently of its indicators, with proportional effects on all of them. The commentary agrees that extraversion cannot (p. 18).
+
+**Response.** Agreed. The separability discussion is now a single paragraph, and the blood-glucose and syndrome comparisons are removed. We accept that the relevant property of blood glucose is that it can be identified and manipulated independently of its indicators. We also agree that extraversion cannot currently be manipulated as a unit, although we do not regard this as a matter of principle. The paragraph now makes one point. Talkativeness, which the target article accepts as a common cause of its measures, is constituted by speaking episodes, as extraversion is constituted by narrow tendencies. The difference is one of breadth, not of kind. Separability matters for defining a treatment; it does not decide whether variation across components has shared causes.
+
+## R1.m3. Sources of within-domain covariance
+
+> "Grosz ... points instead to shared genetic and biological influences" (p. 17): the target article points to shared genetic and environmental influences, direct effects among narrow traits, semantic overlap, and response styles jointly.
+
+**Response.** Corrected. The Introduction now lists the sources named in the target article: shared genetic and environmental influences, direct effects among narrow traits, semantic overlap, and response styles (pp. 4–5).
+
+## R1.m4. Abstract
+
+> Abstract, "Treating compositing as a solution risks an operationalist retreat": the proposed solution of the target article is not only to model the Big Five as composites and use them only in descriptive and predictive research but also to focus on narrow traits and use multimodal assessments and reflective models for them in causal research.
+
+**Response.** Agreed. The abstract is rewritten. "Operationalist retreat" is removed, and the target article's proposal for causal research is stated.
+
+## R1. References cited in the review
+
+> -   Bartholomew, D. J., Deary, I. J., & Lawn, M. (2009). A new lease of life for Thomson's bonds model of intelligence. Psychological Review, 116(3), 567–579.
+>
+> -   Bollen, K. A., & Pearl, J. (2013). Eight myths about causality and structural equation models. In S. L. Morgan (Ed.), Handbook of causal analysis for social research (pp. 301–328). Springer.
+>
+> -   Miller, J. D., Gaughan, E. T., Maples, J., & Price, J. (2011). A comparison of agreeableness scores from the Big Five Inventory and the NEO PI-R: Consequences for the study of narcissism and psychopathy. Assessment, 18(3), 335–339.
+>
+> -   Thomson, G. H. (1916). A hierarchy without a general factor. British Journal of Psychology, 8, 271–281.
+
+**Response.** Bartholomew et al. (2009) is now cited, and Thomson's model is discussed through it. Bollen and Pearl (2013) is cited for the causal reading of structural models. Miller et al. (2011) is acknowledged in R1.6d; the argument it addressed was removed.
+
+# Reviewer 2
+
+## R2.0. Summary
+
+> This paper comments on Grosz (2026) by arguing that broad personality traits like the Big Five may be best conceptualized as complex networks of partly shared causes, rather than as either single causal entities or formative composites. Overall, I am persuaded by the paper’s key arguments and think it could make a meaningful contribution to the discourse about how to best conceptualize personality traits at different levels of abstraction.
+>
+> On the one hand, I agree with Grosz that a broad trait like one of the Big Five should not be conceptualized as a single causal entity (as implied by a simple reflective factor in a latent variable model). On the other hand, I agree with the commentary author(s) that (a) many personality psychologists already recognize this,\* (b) many contemporary personality trait theories (e.g., Whole Trait Theory, Cybernetic Big Five Theory) conceptualize broad traits as complex networks of partly shared biopsychosocial causes rather than single entities, and (c) this kind of conceptualization can be captured by using more-complex reflective factor models (e.g., multilevel or bifactor models) to represent sets of more-broadly and more-narrowly shared causes. Therefore, the choice between single reflective factors and formative composites is a false dichotomy.
+>
+> -   My favorite classic quote along these lines comes from Saucier and Ostendorf (1999): “A broad factor is not so much one thing as a collection of many things that have something in common.”
+
+**Response.** We thank Reviewer 2. We kept the argument and made it more explicit. The quotation from Saucier and Ostendorf (1999, p. 625) now closes the commentary, and Cybernetic Big Five Theory is cited as attributing each level of the trait hierarchy to variation in specific mechanisms (DeYoung, 2015). We do not claim that the debate is settled: the revised text presents the hierarchical reading as a hypothesis that can fail.
+
+## R2.1. Title
+
+> 1.  Much like the original Grosz paper, the commentary’s title is too strong. It seems impossible to conclusively establish that the Big Five are not composite scores. I therefore recommend softening the title to something like: “The Big Five Need Not Be Simple Composite Scores: …”
+
+**Response.** We adopted the suggested title: "The Big Five Need Not Be Simple Composite Scores". The original subtitle is dropped.
+
+## R2.2. Length
+
+> 2.  Overall, I think the commentary could be improved by shortening and tightening it. My best estimate is that the body of the commentary could be shortened by about 15% to 20% (3 or 4 manuscript pages) while retaining all of the key arguments and evidence. When possible, I recommend using single, straightforward sentences rather than multi-sentence rhetorical constructions. This is especially true for paragraphs/sections with few or no external citations. The commentary’s reasoning is sound, so make it as easy as possible for readers to follow the main arguments.
+
+**Response.** We rewrote most of the text in single, plain sentences and cut repeated arguments. The body is down from about 5,400 to about 3,250 words, despite a new section that specifies a model.
